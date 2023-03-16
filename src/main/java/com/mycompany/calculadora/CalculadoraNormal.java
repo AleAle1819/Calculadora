@@ -64,14 +64,4 @@ public class CalculadoraNormal {
         ////JOptionPane.showConfirmDialog(null,Math.sqrt(this.numero1), "La raiz cuadrada del primer entero es: ",JOptionPane.OK_CANCEL_OPTION, JOptionPane.PLAIN_MESSAGE);                
         return Math.sqrt(this.numero1);
     }   
-
-    
-   
-    public void Imprimir(int numero1, int numero2){
-        JOptionPane.showConfirmDialog(null, this.numero1+this.numero2,"La suma es igual a: ", JOptionPane.OK_CANCEL_OPTION, JOptionPane.PLAIN_MESSAGE);
-        JOptionPane.showConfirmDialog(null, this.numero1-this.numero2, "La resta es igual a: ",JOptionPane.OK_CANCEL_OPTION, JOptionPane.PLAIN_MESSAGE);
-        JOptionPane.showConfirmDialog(null, this.numero1*this.numero2, "La multiplicación es igual a: ",JOptionPane.OK_CANCEL_OPTION, JOptionPane.PLAIN_MESSAGE);
-        JOptionPane.showConfirmDialog(null, this.numero1/this.numero2, "La multiplicación es igual a: ",JOptionPane.OK_CANCEL_OPTION, JOptionPane.PLAIN_MESSAGE);
-        JOptionPane.showConfirmDialog(null, Math.sqrt(this.numero1), "La raiz cuadrada del primer entero es: ",JOptionPane.OK_CANCEL_OPTION, JOptionPane.PLAIN_MESSAGE);
-    }
 }
